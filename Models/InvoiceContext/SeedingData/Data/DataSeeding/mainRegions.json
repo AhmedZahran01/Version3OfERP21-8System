@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "MainRegionName": "القاهرة",
+    "start_Number": 1
+  },
+  {
+    "Id": 2,
+    "MainRegionName": "الجيزة",
+    "start_Number": 100
+  },
+  {
+    "Id": 3,
+    "MainRegionName": "الإسكندرية",
+    "start_Number": 200
+  },
+  {
+    "Id": 4,
+    "MainRegionName": "المنصورة",
+    "start_Number": 300
+  },
+  {
+    "Id": 5,
+    "MainRegionName": "طنطا",
+    "start_Number": 400
+  },
+  {
+    "Id": 6,
+    "MainRegionName": "بني سويف",
+    "start_Number": 500
+  },
+  {
+    "Id": 7,
+    "MainRegionName": "أسيوط",
+    "start_Number": 600
+  },
+  {
+    "Id": 8,
+    "MainRegionName": "سوهاج",
+    "start_Number": 700
+  },
+  {
+    "Id": 9,
+    "MainRegionName": "الأقصر",
+    "start_Number": 800
+  },
+  {
+    "Id": 10,
+    "MainRegionName": "أسوان",
+    "start_Number": 900
+  }
+]

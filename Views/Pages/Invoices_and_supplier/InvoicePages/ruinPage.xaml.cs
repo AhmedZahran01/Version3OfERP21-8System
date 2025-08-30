@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using Version3OfERP21_8System.HelperFunctions;
+using Version3OfERP21_8System.Models.Invoices_and_supplier;
+using Version3OfERP21_8System.ViewModel;
+
+namespace Version3OfERP21_8System.Views.Pages.Invoices_and_supplier.InvoicePages
+{ 
+    public partial class ruinPage : Page
+    {
+        List<ruinInvoice> ruinInvoiceData = new List<ruinInvoice>();
+        public ruinPage()
+        {
+            InitializeComponent();
+            setDataInitial();
+
+            dgruinInvoice.ItemsSource = ruinInvoiceData;
+        }
+         
+        public void setDataInitial()
+        {
+            ruinInvoiceData = seedingClassesData.SeedruinInvoiceData().ToList();
+        }
+         
+        private void BackBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var Dashboard = new InvoicesRegion();
+            MainWindowViewModel.MainWindow.Frame.NavigationService.Navigate(Dashboard);
+        }
+    }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "Name": "سكر معبأ",
+    "Type": "مواد غذائية",
+    "Percentage_Representative": 2.5,
+    "Main_purchase_price": 40.0,
+    "Sale_purchase_price": 45.0
+  },
+  {
+    "Id": 2,
+    "Name": "أرز مصري",
+    "Type": "مواد غذائية",
+    "Percentage_Representative": 3.0,
+    "Main_purchase_price": 50.0,
+    "Sale_purchase_price": 58.0
+  },
+  {
+    "Id": 3,
+    "Name": "زيت دوار الشمس",
+    "Type": "زيوت",
+    "Percentage_Representative": 2.0,
+    "Main_purchase_price": 70.0,
+    "Sale_purchase_price": 78.0
+  },
+  {
+    "Id": 4,
+    "Name": "مكرونة اسباجيتي",
+    "Type": "مواد غذائية",
+    "Percentage_Representative": 1.5,
+    "Main_purchase_price": 20.0,
+    "Sale_purchase_price": 25.0
+  },
+  {
+    "Id": 5,
+    "Name": "شاي أخضر",
+    "Type": "مشروبات",
+    "Percentage_Representative": 4.0,
+    "Main_purchase_price": 35.0,
+    "Sale_purchase_price": 42.0
+  },
+  {
+    "Id": 6,
+    "Name": "قهوة سريعة التحضير",
+    "Type": "مشروبات",
+    "Percentage_Representative": 3.5,
+    "Main_purchase_price": 80.0,
+    "Sale_purchase_price": 95.0
+  },
+  {
+    "Id": 7,
+    "Name": "لبن كامل الدسم",
+    "Type": "ألبان",
+    "Percentage_Representative": 2.2,
+    "Main_purchase_price": 18.0,
+    "Sale_purchase_price": 22.0
+  },
+  {
+    "Id": 8,
+    "Name": "جبنة بيضاء",
+    "Type": "ألبان",
+    "Percentage_Representative": 2.8,
+    "Main_purchase_price": 50.0,
+    "Sale_purchase_price": 60.0
+  },
+  {
+    "Id": 9,
+    "Name": "شوكولاتة بالحليب",
+    "Type": "حلويات",
+    "Percentage_Representative": 5.0,
+    "Main_purchase_price": 25.0,
+    "Sale_purchase_price": 32.0
+  },
+  {
+    "Id": 10,
+    "Name": "بسكويت سادة",
+    "Type": "حلويات",
+    "Percentage_Representative": 4.5,
+    "Main_purchase_price": 15.0,
+    "Sale_purchase_price": 20.0
+  }
+]
